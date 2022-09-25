@@ -8,3 +8,8 @@
  - Updates package.json with a `prettier` field
  - (If no changes in git) Runs `prettier` and makes a commit
  
+## How to use
+
+```sh
+npx add-prettier@latest
+```
