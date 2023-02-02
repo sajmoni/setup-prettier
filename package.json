@@ -2,7 +2,11 @@
   "name": "add-prettier",
   "version": "0.0.0",
   "description": "> Adds [`prettier`](https://github.com/prettier/prettier) to a project",
-  "keywords": [],
+  "keywords": [
+    "prettier",
+    "cli",
+    "prettier-config"
+  ],
   "homepage": "https://github.com/sajmoni/add-prettier#readme",
   "bugs": {
     "url": "https://github.com/sajmoni/add-prettier/issues"
@@ -12,9 +16,8 @@
     "url": "git+https://github.com/sajmoni/add-prettier.git"
   },
   "license": "MIT",
-  "author": "",
+  "author": "sajmoni",
   "type": "module",
-  "main": "dist/index.js",
   "bin": "dist/index.js",
   "files": [
     "dist/"
