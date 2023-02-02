@@ -1,0 +1,8 @@
+// Vitest Snapshot v1
+
+exports[`add-prettier 1`] = `
+"
+[34m[1m npm-init-ex[22m[39m
+
+ [32mprettier and prettier-config-one added![39m"
+`;
