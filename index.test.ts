@@ -19,9 +19,14 @@ test(name, async () => {
     normalize: false,
   })) as PackageJson & {
     prettier: string;
+    devDependencies: Record<string, string>;
   };
 
   expect(packageJson.prettier).toEqual("prettier-config-one");
+  expect(Object.keys(packageJson.devDependencies)).toEqual([
+    "prettier",
+    "prettier-config-one",
+  ]);
   console.log("stdout", stdout);
   expect(stdout).toMatchSnapshot();
 });
