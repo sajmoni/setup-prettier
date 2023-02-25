@@ -33,9 +33,9 @@
   },
   "dependencies": {
     "chalk": "5.2.0",
-    "execa": "6.1.0",
+    "execa": "7.0.0",
     "read-pkg": "7.1.0",
-    "sort-package-json": "2.4.0",
+    "sort-package-json": "2.4.1",
     "write-pkg": "5.1.0"
   },
   "devDependencies": {
@@ -43,7 +43,7 @@
     "package-preview": "4.0.0",
     "tempy": "3.0.0",
     "tsconfig-one": "0.0.2",
-    "typescript": "5.0.0-dev.20230202",
-    "vitest": "0.28.3"
+    "typescript": "5.0.0-dev.20230225",
+    "vitest": "0.29.1"
   }
 }
