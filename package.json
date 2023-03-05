@@ -23,14 +23,12 @@
     "dist/"
   ],
   "scripts": {
-    "test": "vitest",
-    "go": "npm run build && preview && npm run test",
     "build": "rm -rf dist && tsc",
-    "release": "np --no-tests"
+    "go": "npm run build && preview && npm run test",
+    "release": "np --no-tests",
+    "test": "vitest"
   },
-  "engines": {
-    "node": ">=18"
-  },
+  "prettier": "prettier-config-one",
   "dependencies": {
     "chalk": "5.2.0",
     "execa": "7.0.0",
@@ -41,9 +39,14 @@
   "devDependencies": {
     "np": "7.6.3",
     "package-preview": "4.0.0",
+    "prettier": "2.8.4",
+    "prettier-config-one": "0.1.1",
     "tempy": "3.0.0",
     "tsconfig-one": "0.0.2",
     "typescript": "5.0.0-dev.20230225",
     "vitest": "0.29.1"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
