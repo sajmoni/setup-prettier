@@ -1,6 +1,6 @@
 {
   "name": "setup-prettier",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "> Adds [`prettier`](https://github.com/prettier/prettier) to a project",
   "keywords": [
     "prettier",
