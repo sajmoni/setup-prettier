@@ -1,8 +1,9 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`add-prettier 1`] = `
+exports[`setup-prettier 1`] = `
 "
-[34m[1m npm-init-ex[22m[39m
+[34m[1m setup-prettier[22m[39m
 
- [32mprettier and prettier-config-one added![39m"
+ [32mprettier and prettier-config-one added![39m
+"
 `;

@@ -1,6 +1,6 @@
-# add-prettier
+# setup-prettier
 
-> Adds [`prettier`](https://github.com/prettier/prettier) to a project
+> Setup [`prettier`](https://github.com/prettier/prettier) with good defaults
 
 ## :sparkles: Features
 
@@ -11,5 +11,5 @@
 ## How to use
 
 ```sh
-npx add-prettier@latest
+npx setup-prettier@latest
 ```

@@ -7,7 +7,7 @@ import sortPackageJson from "sort-package-json";
 import { writePackage } from "write-pkg";
 
 console.log();
-console.log(chalk.blue.bold(" npm-init-ex"));
+console.log(chalk.blue.bold(" setup-prettier"));
 console.log();
 
 await execa("npm", [
