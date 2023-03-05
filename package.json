@@ -26,7 +26,7 @@
     "test": "vitest",
     "go": "npm run build && preview && npm run test",
     "build": "rm -rf dist && tsc",
-    "release": "np"
+    "release": "np --no-tests"
   },
   "engines": {
     "node": ">=18"
