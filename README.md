@@ -6,7 +6,7 @@
 
 - Installs `prettier` and [`prettier-config-one`](https://github.com/sajmoni/prettier-config-one)
 - Updates package.json with a `prettier` field
-- (If no changes in git) Runs `prettier` (todo)
+- Runs `prettier`
 
 ## How to use
 

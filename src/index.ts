@@ -29,4 +29,7 @@ const updatedPackageJson = sortPackageJson({
 // @ts-expect-error - sort-package-json doesn't return a compatible type
 await writePackage(updatedPackageJson);
 
+await execa("npx", ["prettier", "--write", "."]);
+
 console.log(` ${chalk.green("prettier and prettier-config-one added!")}`);
+console.log();
