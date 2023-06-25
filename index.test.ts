@@ -4,15 +4,22 @@ import { expect, test } from 'vitest'
 import { execa } from 'execa'
 import { temporaryDirectory } from 'tempy'
 import { PackageJson, readPackage } from 'read-pkg'
+import { getBinPath } from 'get-bin-path'
+
 import { name } from './package.json'
 
 test(name, async () => {
+  const binPath = await getBinPath()
+  if (!binPath) {
+    throw new Error('Bin path not found')
+  }
+
   const directory = temporaryDirectory({ prefix: 'hello-world' })
   const unFormatted = 'console.log("hello world");'
 
   await fs.writeFile(path.join(directory, 'index.js'), unFormatted)
 
-  const { stdout } = await execa(name, [], {
+  const { stdout } = await execa(binPath, [], {
     cwd: directory,
     env: {
       // @ts-expect-error
