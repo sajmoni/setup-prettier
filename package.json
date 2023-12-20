@@ -1,16 +1,12 @@
 {
   "name": "setup-prettier",
   "version": "0.0.3",
-  "description": "> Adds [`prettier`](https://github.com/prettier/prettier) to a project",
+  "description": "Setup prettier with good defaults",
   "keywords": [
     "prettier",
     "cli",
     "prettier-config"
   ],
-  "homepage": "https://github.com/sajmoni/setup-prettier#readme",
-  "bugs": {
-    "url": "https://github.com/sajmoni/setup-prettier/issues"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sajmoni/setup-prettier.git"
