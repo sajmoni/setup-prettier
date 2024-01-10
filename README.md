@@ -6,10 +6,11 @@
 
 - Installs `prettier` and [`prettier-config-one`](https://github.com/sajmoni/prettier-config-one)
 - Updates package.json with a `prettier` field
+- Sorts `package.json`
 - Runs `prettier`
 
 ## How to use
 
-```sh
+```console
 npx setup-prettier@latest
 ```
