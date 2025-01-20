@@ -19,7 +19,7 @@
     "dist/"
   ],
   "scripts": {
-    "build": "rm -rf dist && tsc",
+    "build": "rm -rf dist && tsc --project ./tsconfig.prod.json",
     "release": "np --no-tests",
     "test": "npm run build && chmod +x dist/index.js && vitest"
   },

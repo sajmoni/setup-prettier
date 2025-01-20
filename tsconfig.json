@@ -5,6 +5,5 @@
     "outDir": "dist",
     "ignoreDeprecations": "5.0",
     "incremental": false
-  },
-  "include": ["src"]
+  }
 }
