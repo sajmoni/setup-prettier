@@ -3,7 +3,7 @@ import path from 'node:path'
 import { expect, test } from 'vitest'
 import { execa } from 'execa'
 import { temporaryDirectory } from 'tempy'
-import { PackageJson, readPackage } from 'read-pkg'
+import { type PackageJson, readPackage } from 'read-pkg'
 import { getBinPath } from 'get-bin-path'
 
 import { name } from './package.json'
@@ -22,8 +22,7 @@ test(name, async () => {
   const { stdout } = await execa(binPath, [], {
     cwd: directory,
     env: {
-      // @ts-expect-error
-      FORCE_COLOR: 2,
+      FORCE_COLOR: '2',
     },
   })
 

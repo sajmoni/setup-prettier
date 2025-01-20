@@ -32,6 +32,7 @@
     "write-pkg": "7.0.0"
   },
   "devDependencies": {
+    "@types/node": "22.10.7",
     "get-bin-path": "11.0.0",
     "np": "10.1.0",
     "prettier": "3.4.2",
