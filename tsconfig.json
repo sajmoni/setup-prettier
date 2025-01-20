@@ -1,6 +1,7 @@
 {
   "extends": "tsconfig-one/tsconfig.json",
   "compilerOptions": {
+    "lib": ["esnext", "DOM"],
     "outDir": "dist",
     "ignoreDeprecations": "5.0",
     "incremental": false

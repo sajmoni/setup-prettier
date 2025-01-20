@@ -25,21 +25,21 @@
   },
   "prettier": "prettier-config-one",
   "dependencies": {
-    "chalk": "5.3.0",
-    "execa": "8.0.1",
+    "chalk": "5.4.1",
+    "execa": "9.5.2",
     "read-pkg": "9.0.1",
-    "sort-package-json": "2.6.0",
+    "sort-package-json": "2.14.0",
     "write-pkg": "7.0.0"
   },
   "devDependencies": {
     "get-bin-path": "11.0.0",
-    "np": "9.2.0",
-    "prettier": "3.1.1",
-    "prettier-config-one": "0.2.0",
+    "np": "10.1.0",
+    "prettier": "3.4.2",
+    "prettier-config-one": "0.2.1",
     "tempy": "3.1.0",
-    "tsconfig-one": "0.0.8",
-    "typescript": "5.3.3",
-    "vitest": "1.1.0"
+    "tsconfig-one": "0.0.9",
+    "typescript": "5.7.3",
+    "vitest": "3.0.2"
   },
   "engines": {
     "node": ">=20"
